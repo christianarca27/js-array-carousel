@@ -8,7 +8,7 @@ body {
     padding-top: 300px;
 }
 
-#container {
+#carousel {
     max-width: 1000px;
     height: 400px;
     margin-left: auto;
@@ -17,19 +17,19 @@ body {
     position: relative;
 }
 
-#container img {
+#carousel img {
     width: 100%;
     height: 100%;
 
     object-fit: cover;
 }
 
-#container i {
+#carousel i {
     filter: invert(1);
     opacity: .7;
 }
 
-#container #top-button {
+#carousel #top-button {
     position: absolute;
     top: 5%;
     left: 50%;
@@ -37,7 +37,7 @@ body {
     transform: translateX(-50%);
 }
 
-#container #bottom-button {
+#carousel #bottom-button {
     position: absolute;
     bottom: 5%;
     left: 50%;
