@@ -3,3 +3,44 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    padding-top: 300px;
+}
+
+#container {
+    max-width: 1000px;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+
+    position: relative;
+}
+
+#container img {
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+}
+
+#container i {
+    filter: invert(1);
+    opacity: .7;
+}
+
+#container #top-button {
+    position: absolute;
+    top: 5%;
+    left: 50%;
+
+    transform: translateX(-50%);
+}
+
+#container #bottom-button {
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+    
+    transform: translateX(-50%);
+}
