@@ -5,15 +5,21 @@
 }
 
 body {
-    padding-top: 300px;
+    padding-top: 100px;
+}
+
+.container {
+    max-width: 1200px;
+    height: 400px;
+    
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* carousel */
 #carousel {
-    max-width: 1200px;
-    height: 400px;
-    margin-left: auto;
-    margin-right: auto;
+    width: 100%;
+    height: 100%;
 
     display: flex;
     flex-flow: row nowrap;
