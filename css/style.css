@@ -24,9 +24,19 @@ body {
     object-fit: cover;
 }
 
-#carousel i {
-    filter: invert(1);
+#carousel:hover i {
     opacity: .7;
+    transition: opacity .3s;
+}
+
+#carousel i {
+    opacity: 0;
+    transition: opacity .3s;
+    filter: invert(1);
+}
+
+#carousel i:hover {
+    cursor: pointer;
 }
 
 #carousel #top-button {
